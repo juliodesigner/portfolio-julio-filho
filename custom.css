@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700);
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+.btn {
+	border-radius: 4px;
+}
+.text-green {
+	color: #74D400;
+}
+
+h2 {
+	font-size: 4vw;
+}
+.btn-tranparent {
+	border: 1px solid #fff;
+	color: #fff;
+}
+.btn-tranparent:hover, .btn-tranparent:focus {
+	border: 1px solid #fff;
+	color: #000;
+	background: #fff
+}
+.btn-green {
+	border: 1px solid #5BA600;
+	color: #5BA600;
+}
+.btn-green:hover, .btn-green:focus {
+	border: 1px solid #5BA600;
+	color: #fff;
+	background: #5BA600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-green {
+	color: #74D400;
+}
+
+
+
+/* -----------Services Sec---------- */
+.services-sec {
+	width: 100%;
+	padding-bottom: 40px
+}
+.services-sec h2 {
+	line-height: 64px;
+	margin-bottom: 40px;
+	top: 0;
+	margin-top: 0
+}
+.services-sec h2 small {
+	font-size: 28px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 700;
+	padding: 0 9px 4px;
+	position: relative
+}
+.services-sec h2 small::after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 50%;
+	background: #c8c8c8;
+	bottom: 0;
+	margin-left: -25%;
+	left: 50%;
+}
+.services-sec .services-container {
+	color: #fff;
+	margin-top: 30px;
+}
+.services-sec .services-container i {
+	border: 1px solid #5BA600;
+	border-radius: 50%;
+	font-size: 33px;
+	padding: 20px;
+	color: #5BA600
+}
+.service-block {
+	margin-bottom: 60px;
+	padding: 10px 27px
+}
+.services-sec h3 {
+	font-size: 17px;
+	color: #232322;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.services-sec p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 27px;
+	color: #232322;
+}
+
+.texto-servico{
+	margin-top: 20px;
+}
+
+
+
+/* -----------Contact Sec---------- */
+
+.contact-sec {
+	background: url(../img/contact-bg.jpg) no-repeat;
+	background-size: cover;
+	margin-bottom: 0;
+	width: 100%;
+	position: relative;
+}
+.contact-sec::before {
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: "";
+	top: 0;
+	left: 0;
+	z-index: 1
+}
+.contact-sec .form-block {
+	position: relative;
+	z-index: 2
+}
+.contact-sec h2 {
+	color: #fff;
+}
+.contact-sec label {
+	color: #fff;
+}
+.contact-sec p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	margin: 20px 0;
+	
+}
+.contact-sec .phone-sec {
+	font-weight: 700;
+	font-size: 22px;
+	color: #fff;
+}
+.contact-sec .btn-tranparent {
+	font-weight: 600;
+	font-size: 16px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	width: 200px;
+	border-width: 1px;
+	margin-top: 60px;
+}
+footer {
+	
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding: 30px 0
+}
+footer .love-text{
+    text-align: right;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */

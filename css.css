@@ -1,0 +1,34 @@
+
+/* Responsive breakpoints  
+    Mobile First  */
+h1{
+    color: red;
+}
+
+p{
+    color: red;
+}
+
+@media (min-width: 576px) { 
+     h1{color:blue;} 
+     p{color:blue;}  
+ }
+
+
+@media (min-width: 768px) { 
+    h1{color:green;}
+    p{color:green;}
+ }
+
+
+@media (min-width: 992px) { 
+    h1{color:yellow;}
+    p{color:yellow;}
+ }
+
+
+@media (min-width: 1200px) { 
+        h1{color: orange;}
+        p{color: orange;}
+ }
+ /* Fim  Responsive breakpoints */
